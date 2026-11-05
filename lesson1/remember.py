@@ -85,4 +85,4 @@ st = 'Python'
 print(st[-1])
 print(st[-2])
 print(st[-3])
-print(st[-6])
+print(st[-4])
