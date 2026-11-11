@@ -1,3 +1,20 @@
+#API
+
+contact = {
+    "id":12,
+    "name":"Anna",
+    "email":"anna@gm.com"
+}
+req_field = {
+    "id",
+    "name",
+    "email"
+}
+for field in req_field:
+    assert field in contact, f"В ответе отсутствует поле{field}"
+
+
+
 #1
 def print_list_reverse(lst):
     if lst is None or not isinstance(lst, list) or len(lst) == 0:
