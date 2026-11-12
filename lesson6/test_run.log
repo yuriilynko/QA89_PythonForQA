@@ -1,0 +1,6 @@
+test_login:Passed
+test_registration:Failed
+test_logout:Failed
+test_login:Passed
+test_registration:Failed
+test_logout:Failed
